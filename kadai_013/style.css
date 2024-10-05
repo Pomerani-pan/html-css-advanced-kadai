@@ -109,7 +109,6 @@ PC用のスタイル
   
     /* ナビゲーションメニュー用ロゴ */
     #logo-sp {
-      display: block;
       margin: 80px 0 30px 20px;
     } 
     /* ナビゲーションのリンクの装飾設定 */
@@ -137,6 +136,12 @@ PC用のスタイル
   }
  
    #nav-sp .menu {
+    text-decoration: none;
+    display: block;
+    margin: 20px;
+    height: 44px;
+    font-size: 16px;
+    background-image: url("images/arrow.png");
      background-repeat: no-repeat;
      background-position: right center;
      padding-right: 30px;
