@@ -94,7 +94,6 @@ PC用のスタイル
       width: 100%;
       display: none;
       z-index: 100;
-      padding: 20px;
     }
     
     /* ×ボタン */
@@ -114,16 +113,18 @@ PC用のスタイル
     /* ナビゲーションのリンクの装飾設定 */
    #nav-sp ul {
     padding-left: 0;
-    list-style: none;
    }
    #nav-sp il {
-    margin-bottom: 16px;
+    list-style: none;
    }
    #nav-sp a {
     display: block;
     font-size: 18px;
     color: #ffffff;
     text-decoration: none;
+  }
+  #nav-sp nav a:link{
+    color: #ffffff;
   }
   #nav-sp nav a:visited{
     color: #ffffff;
@@ -143,8 +144,7 @@ PC用のスタイル
     font-size: 16px;
     background-image: url("images/arrow.png");
      background-repeat: no-repeat;
-     background-position: right center;
-     padding-right: 30px;
+     background-position: right top;
    }
    
     
